@@ -11633,9 +11633,8 @@ section#resume .resume-heading {
 section#contact {
   background-image: url("../assets/img/phone-image.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
-  background-size: 100%;
 
 }
 section#contact .section-heading {
