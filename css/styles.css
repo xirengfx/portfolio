@@ -75,10 +75,6 @@
     scroll-behavior: smooth;
   }
 }
-html, body {
-  margin: 0 !important;
-  padding: 0 !important;
-}
 
 body {
   margin: 0;
@@ -11580,7 +11576,9 @@ section#about ul {
 }
 
 .emanuel-image {
-  max-width: 26rem;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
   padding-bottom: 1.5rem;
 }
 
