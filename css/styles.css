@@ -75,6 +75,10 @@
     scroll-behavior: smooth;
   }
 }
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   margin: 0;
@@ -11630,7 +11634,6 @@ section#resume .resume-heading {
 }
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/phone-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
