@@ -11631,10 +11631,13 @@ section#resume .resume-heading {
   border-radius: 30px;
 }
 section#contact {
-  background-image: url("../assets/img/phone-image.jpg");
+  background-image: url("../assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
 
 }
 section#contact .section-heading {
